@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views import HomePageView, DetailPageView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', HomePageView.as_view(), name = 'home'),
+    path('post_detail/<int:pk>', DetailPageView.as_view(), name = 'detail')
 ]
