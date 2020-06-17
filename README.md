@@ -43,4 +43,4 @@ Test `HomePageViewTest`
     - use url name instead of hard coded path
 
 ## Pull Request
-[PR #1]()
+[PR #1](https://github.com/eugenemonnier/blog_project/pull/1)
